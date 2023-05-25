@@ -1,16 +1,16 @@
 // /**задание 1. Создайте переменную a. Запишите в нее значение 10,
 //    выведите его на экран с помощью метода alert(). Затем запишите
 //    в нее значение 20, выведите его на экран.**/
-// let Na = 10;
-// alert(`Число ${Na}`);
-// Na = Na + 10;
-// alert(`Число ${Na}`);
+// let a = 10;
+// alert(`Число ${a}`);
+// a = a + 10;
+// alert(`Число ${a}`);
 // //задание 2.
-// let iPhoneAge = 2007;
-// alert(`год выпуска первого яблочка ${iPhoneAge}`);
+// let iphoneReleaseDate = 2007;
+// alert(`год выпуска первого яблочка ${iphoneReleaseDate}`);
 // //задание 3.
-// let nameJS = (`Брендан Айк`);
-// alert(`Создатель JS - ${nameJS}`);
+// let founderOfJS = (`Брендан Айк`);
+// alert(`Создатель JS - ${founderOfJS}`);
 // //Задание 4.
 // let x = Number (10);
 // let y = Number (2);
@@ -26,19 +26,19 @@
 // let result =Number (2**5);
 // alert(`Результат 2 в степени 5 = ${result}`);
 // //Задание 6.
-// let a = Number (9);
-// let b = Number (2);
+// let a = 9;
+// let b = 2;
 // let resultRemains = a%b;
 // alert(`Остаток от деления a / b = ${resultRemains}`);
 // //Задание 7.
-// let num = 1;
-// num += 5;
-// num -= 3;
-// num *= 7;
-// num /= 3;
-// num = num++;
-// num = num--;
-// alert(num);
+let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
+alert(num);
 // //Задание 8.
 // let age = prompt("Сколько вам лет?");
 // alert(`Вам ${age} лет?`);
