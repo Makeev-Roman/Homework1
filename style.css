@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background: #000915;
+}
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -154,13 +158,14 @@
   }
   .game-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    justify-items: center;
     row-gap: 32px;
   }
   .game-box__item {
     width: 343px;
     height: 300px;
-    grid-column: span 4;
+    grid-column: span 1;
     display: flex;
     align-items: flex-end;
     margin: 0;

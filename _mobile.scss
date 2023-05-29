@@ -38,12 +38,13 @@
     }
     .game-box {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+        justify-items: center;
         row-gap: 32px;
         &__item {
         width: 343px;
         height: 300px;
-        grid-column: span 4;
+        grid-column: span 1;
         display: flex;
         align-items: flex-end;
         margin: 0;
